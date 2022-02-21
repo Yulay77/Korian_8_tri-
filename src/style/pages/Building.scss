@@ -1,0 +1,89 @@
+.building{
+    display: grid;
+    justify-items: center;
+    min-height: 180vh;
+    background-color:#C6DBE0 ;
+    overflow-x: none;
+
+}
+
+.myBuilding{
+    display: flex;
+    font-size: 35px;
+    color: #71ABBB;
+}
+
+.buildingName{
+    padding-top: 8vh;
+    font-weight: 900;
+}
+.score{
+    height: 50px;
+    width: 250px;
+    background-color: #FF6A42;
+    border-radius: 5px;
+    display: flex; 
+    justify-content:center;
+    align-items:center; 
+    position: fixed;  
+    left: 12vw;
+    margin-top: 10vh;
+}
+.overallScore{
+    font-size: 20px; 
+    color: #FFF; 
+}
+.overallScore b{
+    font-size:30px;
+}
+
+.buildingName, .buildingImg{
+    margin-top: 0.5vh;
+}
+
+.buildingImgTxt{
+    display: flex;
+    align-items: top;
+}
+
+.buildingImg{
+    width: 50vw;
+    margin-top: 12vh;
+    margin-bottom: 10vh;
+    margin-right: 20vw;
+}
+
+.buildingTxt{
+    position: fixed;
+    max-width: 25vw;
+    height: 25vh;
+    margin-top: 5vh;
+    margin-left: 48vw;
+}
+
+.room{
+    color:#688B94;
+    font-size: 18px;
+}
+
+.room1{
+    color:#638790;
+    text-align: justify;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    font-size: 14px;
+}
+
+.buttons{
+    color: #E08330;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 0.5vh;
+    margin-bottom: 2vh;
+    border: 2px solid #E08330;
+    padding: 5px;
+    background-color: #C6DBE0;
+    border-radius: 5px;
+}
+
+
